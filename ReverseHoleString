@@ -1,0 +1,16 @@
+public class ReverseWholeString {
+    public static void main(String[] args) {
+        String str="Hello Everyone";
+        //Approch-1
+        for(int i=str.length()-1;i>=0;i--){
+          System.out.print(str.charAt(i));
+        }
+        System.out.println();
+        //Approch-2
+        StringBuffer buffer=new StringBuffer(str);
+        System.out.println(buffer.reverse());
+    }
+}
+/*  Input- hello
+ *  Output-olleh
+ */
