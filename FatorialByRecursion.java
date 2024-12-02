@@ -3,7 +3,7 @@ package com.string.question;
 public class FactorialByRecurson {
 	public static void main(String[] args) {
 		int number = 6;
-		factorial(number);
+		System.out.println(factorial(number));
 	}
 
 	public static int factorial(int number) {
